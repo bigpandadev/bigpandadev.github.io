@@ -1,0 +1,76 @@
+/* 
+    Created on : Jan 23, 2016, 4:41:15 PM
+    Author     : Matija Belec <mbelec@foi.hr>
+*/
+
+/* reset all elements */
+*{
+    margin: 0;
+    padding: 0;
+}
+header, footer, main, article, section{
+    display:block;
+}
+
+/*
+    Coolors Exported Palette - coolors.co/3d4656-5d8a79-dac9b2-d7a954-8d714c
+    color palete:
+        $color1  #3d4656; text
+        $color2: #5d8a79; links
+        $color3: #dac9b2; background
+        $color4: #d7a954; 
+        $color5: #8d714c; 
+*/
+
+/* default page style */
+body{
+    font-size: 16pt;
+    color: #3d4656;
+    background-color: #dac9b2;
+}
+a{
+    text-decoration: none;
+    color: #5d8a79;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* header */
+header#header{
+    padding: 8pt 12pt;
+    color: #fff;
+    background-color: #d7a954;
+}
+header#header a{
+    color: #dedede;
+}
+
+/* main */
+main#main{
+    padding: 12pt 10pt 20pt;
+    text-align: center;
+}
+
+/* footer */
+footer#footer{
+    text-align: right;
+}
+footer#footer p{
+    font-size: 14pt;
+    padding: 8pt 12pt 10pt;
+    color: #dac9b2;
+    background-color: #8d714c;
+}
+footer#footer p a{
+    color: #d7a954;
+}
+
+.wip {
+    display: inline-block;
+    position: relative;
+    margin: 4pt auto;
+    padding: 6pt 12pt;
+    color: #dac9b2;
+    background-color: #8d714c;
+}
