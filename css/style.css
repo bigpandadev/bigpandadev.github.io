@@ -48,8 +48,10 @@ header#header a{
 
 /* main */
 main#main{
+    position: relative;
     padding: 12pt 10pt 20pt;
     text-align: center;
+    min-height: 480px;
 }
 
 /* footer */
