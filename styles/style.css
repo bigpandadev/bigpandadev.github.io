@@ -1,0 +1,89 @@
+*{ margin: 0; padding: 0; }
+header, footer, main, article, section{ display: block; }
+
+body{
+  font-size: 16pt;
+  color: #fdfffc;
+  background-color: #011627;
+}
+
+
+
+
+/*a{
+  text-decoration: none;
+  color: #5d8a79;
+}
+a:hover{
+  text-decoration: underline;
+}*/
+h2{
+  color: #ffe900;
+}
+a{
+  color: #ff9f1c;
+}
+
+header#header, footer#footer{
+  color: #fcfff7;
+  background-color: #ff9f1c;
+}
+header#header{
+  height: 64px;
+}
+header#header a{
+  display: block;
+  float: left;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 14px 8px;
+  color: #011627;
+}
+footer#footer{
+  min-height: 168px;
+  padding: 24px 8px 12px;
+}
+footer#footer, footer#footer a{
+  font-size: 14pt;
+  text-decoration: none;
+  color: #011627;
+}
+
+
+main#main{
+  position: relative;
+  padding: 12pt 10pt 20pt;
+  text-align: center;
+  min-height: 480px;
+}
+
+.page-section{
+  min-height: 320px;
+  display: block;
+  position: relative;
+  text-align: left;
+}
+.page-section header h2{
+  display: block;
+  padding-top: 64px;
+  padding-bottom: 14px;
+}
+.page-section p{
+  display: block;
+  padding-bottom: 12px;
+}
+
+.container{
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 960px;
+  max-width: 96%;
+  margin: auto;
+}
+
+.panda-logo{
+  display: block;
+  float: right;
+  padding: 8px 28px;
+}
