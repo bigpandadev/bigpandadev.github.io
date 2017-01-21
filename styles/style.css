@@ -1,22 +1,13 @@
 *{ margin: 0; padding: 0; }
 header, footer, main, article, section{ display: block; }
 
+html,body{ font-family: 'PT Sans', sans-serif; }
 body{
   font-size: 16pt;
   color: #fdfffc;
   background-color: #011627;
 }
 
-
-
-
-/*a{
-  text-decoration: none;
-  color: #5d8a79;
-}
-a:hover{
-  text-decoration: underline;
-}*/
 h2{
   color: #ffe900;
 }
@@ -36,7 +27,7 @@ header#header a{
   float: left;
   font-size: 30px;
   text-decoration: none;
-  padding: 14px 8px;
+  padding: 13px 8px;
   color: #011627;
 }
 footer#footer{
